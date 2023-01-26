@@ -1,4 +1,4 @@
-export const lista = (a, b, c, index) => {
+export const findIndex = (a, b, c, index) => {
   for (a of b) {
     c++;
     if (c === index) {

@@ -1,6 +1,6 @@
-import { lista } from './asd';
+import { findIndex } from './asd';
 
-describe('Given index function', () => {
+describe('Given findIndex function', () => {
   describe('When the inset the number they are looking for', () => {
     test('When insert 3 it should show 3', () => {
       const a = 3;
@@ -8,7 +8,7 @@ describe('Given index function', () => {
       const c = 0;
       const index = 2;
       const expected = 2;
-      const r = lista(a, b, c, index);
+      const r = findIndex(a, b, c, index);
       expect(r).toBe(expected);
     });
   });
