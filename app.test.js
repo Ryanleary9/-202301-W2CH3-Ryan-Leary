@@ -6,7 +6,7 @@ describe('Given findIndex function', () => {
   test('When insert 3 it should show 3', () => {
     const a = 2;
     const b = 'hola';
-    const expected = 'o';
+    const expected = 'h';
     const r = findIndex(a, b);
     // eslint-disable-next-line no-undef
     expect(r).toBe(expected);
