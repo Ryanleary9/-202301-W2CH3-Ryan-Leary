@@ -1,19 +1,14 @@
-import { findIndex } from './asd';
+import { lengths, findIndex } from './asd';
 
 // eslint-disable-next-line no-undef
 describe('Given findIndex function', () => {
   // eslint-disable-next-line no-undef
-  describe('When the inset the number they are looking for', () => {
+  test('When insert 3 it should show 3', () => {
+    const a = 2;
+    const b = 'hola';
+    const expected = 'o';
+    const r = findIndex(a, b);
     // eslint-disable-next-line no-undef
-    test('When insert 3 it should show 3', () => {
-      const a = 3;
-      const b = [1, 2, 3, 4];
-      const c = 0;
-      const index = 2;
-      const expected = 2;
-      const r = findIndex(a, b, c, index);
-      // eslint-disable-next-line no-undef
-      expect(r).toBe(expected);
-    });
+    expect(r).toBe(expected);
   });
 });
