@@ -1,4 +1,4 @@
-import { lengths, findIndex } from './asd';
+import { findIndex } from './asd';
 
 // eslint-disable-next-line no-undef
 describe('Given findIndex function', () => {
